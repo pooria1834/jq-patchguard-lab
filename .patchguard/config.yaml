@@ -22,8 +22,8 @@ build:
     checked:
       - -O1
       - -g
-      - -fPIE
-      - -pie
+      - -fno-pie
+      - -no-pie
       - -fstack-protector-strong
       - -fsanitize=address,undefined
       - -fno-omit-frame-pointer
