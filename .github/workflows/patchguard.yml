@@ -34,7 +34,7 @@ jobs:
 
       - name: Run PatchGuard
         id: patchguard
-        uses: pooria1834/PatchGuard@c28873ab7d3e319262791e913fd27ce156d3f4a7
+        uses: pooria1834/PatchGuard@ce52a5cb6da7166563191e40c533032878643e28
         with:
           config: .patchguard/config.yaml
           report-dir: artifacts/patchguard
